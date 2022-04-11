@@ -19,9 +19,9 @@ function App() {
     <AppContainer>
       {/* <AccountBox /> */}
       {/* <Manager/> */}
-      <History/>
+      {/* <History/> */}
       {/* <Users/> */}
-      {/* <CreateUser/> */}
+      <CreateUser/>
     </AppContainer>
   );
 }
