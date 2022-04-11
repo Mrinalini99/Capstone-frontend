@@ -1,7 +1,10 @@
 import "./App.css";
 import styled from "styled-components";
 import { AccountBox } from "./components/accountBox";
-
+import Manager from "./components/manager/Manager";
+import CreateUser from "./components/manager/CreateUser";
+import Users from "./components/manager/Users";
+import History from "./components/manager/History";
 const AppContainer = styled.div`
   width: 100%;
   height: 100%;
@@ -14,7 +17,11 @@ const AppContainer = styled.div`
 function App() {
   return (
     <AppContainer>
-      <AccountBox />
+      {/* <AccountBox /> */}
+      {/* <Manager/> */}
+      <History/>
+      {/* <Users/> */}
+      {/* <CreateUser/> */}
     </AppContainer>
   );
 }
